@@ -1,0 +1,12 @@
+---
+title: Butonlar
+subtitle: Buton seçeneklerine gözatın
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: /img/asansor/buton/buton1.jpg
+thumbnail: /img/portfolio/buton.jpg
+alt: image-alt
+project-date: April 2014
+description: Asansör butonları
+---

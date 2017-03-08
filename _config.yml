@@ -1,0 +1,60 @@
+url: http://berkasansor.com/
+baseurl: 
+
+# Site settings
+title: Berk Asansör
+email: berkasansor@hotmail.com
+description: "Bakım, arıza, modernizasyon, projelendirme, mühendislik"
+
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/berkasansor
+  - title: facebook
+    url: https://www.facebook.com/Berk-Asans%C3%B6r-185447965283429/
+
+# Postal address (add as many lines as necessary)
+address: Namık Kemal Mah. Yunus Emre Cadddesi Bayrak Sokak Mevlana Apartmanı 3 / Dükkan 2 Ümraniye İstanbul
+phone: (216) 328 80 26 - (216) 328 65 38
+gsm: (0532) 332 04 26
+fax: (216) 328 92 96
+
+# Build settings
+markdown: kramdown
+permalink: pretty

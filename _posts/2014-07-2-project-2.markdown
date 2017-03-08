@@ -1,0 +1,15 @@
+---
+title: Hidrolik sistemler
+subtitle: Hidrolik asansör sistemlerine gözatın
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: /img/asansor/buton/buton1.jpg
+thumbnail: /img/portfolio/hidrolik_sistemler.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: 
+
+---
