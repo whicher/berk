@@ -3,14 +3,16 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<section class="py-5 mt-5">
+<!-- Page Header -->
+<header class="masthead-page text-white text-center" style="background: linear-gradient(rgba(13, 71, 161, 0.8), rgba(38, 50, 56, 0.8)), url('https://images.unsplash.com/photo-1503694978374-8a2fa686963a?auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; padding: 180px 0 100px;">
+  <div class="container">
+    <h1 class="display-3 fw-bold mb-3 text-uppercase">Blog</h1>
+    <p class="lead fw-light mb-0 opacity-75">Asansör dünyasından en güncel haberler, teknik bilgiler ve güvenlik tavsiyeleri.</p>
+  </div>
+</header>
+
+<section class="py-5 bg-light">
   <div class="container py-5">
-    <div class="row mb-5 text-center">
-      <div class="col-lg-12">
-        <h1 class="display-4 fw-bold mb-3" style="color: #{{ site.data.template.color.primary }};">Blog</h1>
-        <p class="lead text-muted">Asansör dünyasından en güncel haberler, teknik bilgiler ve güvenlik tavsiyeleri.</p>
-      </div>
-    </div>
     <div class="row g-4">
       {% for post in site.posts %}
         <div class="col-md-4">
