@@ -38,3 +38,8 @@ fax: (216) 328 92 96
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
+
+collections:
+  urunler:
+    output: true
+    permalink: /urunler/:path/

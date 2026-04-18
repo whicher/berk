@@ -8,14 +8,14 @@
       </div>
     </div>
     <div class="row g-4">
-    {% for item in site.data.portfolio %}
+    {% for item in site.urunler %}
       <div class="col-md-4 col-sm-6">
         <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden portfolio-card">
-          <a href="#portfolioModal{{ item.modal-id }}" data-bs-toggle="modal" class="text-decoration-none">
+          <a href="{{ item.url | prepend: site.baseurl }}" class="text-decoration-none">
             <div class="portfolio-img-wrapper position-relative overflow-hidden">
-              <img src="{{ item.thumbnail }}" class="card-img-top" alt="{{ item.alt }}" style="height: 250px; object-fit: cover; transition: transform 0.5s ease;">
+              <img src="{{ item.thumbnail | prepend: site.baseurl }}" class="card-img-top" alt="{{ item.alt }}" style="height: 250px; object-fit: cover; transition: transform 0.5s ease;">
               <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-primary bg-opacity-75 opacity-0 transition-overlay">
-                <i class="fa fa-plus fa-3x text-white"></i>
+                <i class="fa fa-link fa-3x text-white"></i>
               </div>
             </div>
             <div class="card-body p-4 text-center">

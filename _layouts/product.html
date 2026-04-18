@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="py-5 mt-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+          <img src="{{ site.baseurl }}/img/portfolio/{{ page.img }}" class="img-fluid" alt="{{ page.title }}">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="ps-lg-4">
+          <h1 class="display-4 fw-bold mb-3" style="color: #{{ site.data.template.color.primary }};">{{ page.title }}</h1>
+          <h4 class="text-muted fst-italic mb-4">{{ page.subtitle }}</h4>
+          <div class="badge bg-primary rounded-pill px-3 py-2 mb-4">{{ page.category }}</div>
+          
+          <div class="product-description lead text-muted mb-5">
+            {{ content }}
+          </div>
+
+          <div class="card border-0 bg-light rounded-4 p-4 mb-4">
+            <h5 class="fw-bold mb-3">Bilgi Alın</h5>
+            <p class="small text-muted mb-0">Bu ürünümüz hakkında detaylı bilgi ve fiyat teklifi almak için bizimle iletişime geçebilirsiniz.</p>
+            <div class="mt-3">
+              <a href="{{ site.baseurl }}/iletisim/" class="btn btn-primary rounded-pill px-4">Teklif Al</a>
+            </div>
+          </div>
+
+          <a href="{{ site.baseurl }}/urunlerimiz/" class="btn btn-link text-decoration-none text-muted p-0 mt-3">← Tüm Ürünlerimize Dön</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
