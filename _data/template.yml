@@ -1,12 +1,14 @@
 # Color settings (hex-codes without the leading hash-tag)
+# Modern Elevator Palette: Deep Navy, Professional Silver, Safety Yellow
 color:
-  primary: 3174f9
-  #primary: fed136
-  secondary: fec503   
-  secondary-dark: 333
-  muted: 777
+  primary: 0d47a1    # Deep Navy Blue
+  accent: ffb300     # Safety/Amber Yellow (for CTA and icons)
+  secondary: 455a64  # Blue Gray (for subtitles)
+  dark: 263238      # Very Dark Gray/Text
+  light: f5f7fa     # Soft Off-White Background
+  muted: 90a4ae      # Muted Gray-Blue
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: '"Inter", "Montserrat", sans-serif'
+  secondary: '"Lora", serif'

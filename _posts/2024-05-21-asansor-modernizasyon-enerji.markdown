@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Asansör Modernizasyonu (Revizyon) ile Enerji Tasarrufu
 date: 2024-05-21
 category: blog

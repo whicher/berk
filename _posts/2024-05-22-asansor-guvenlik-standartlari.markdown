@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Asansörlerde Güvenlik ve Modern Standartlar
 date: 2024-05-22
 category: blog

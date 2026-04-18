@@ -1,25 +1,37 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-<!--                         <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
+  <footer class="py-5 bg-white border-top">
+    <div class="container py-4">
+      <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center text-md-start">
+          <span class="copyright text-muted small fw-bold">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
         </div>
-    </footer>
+        <div class="col-md-4 text-center">
+          <ul class="list-inline mb-0">
+            {% for network in site.social %}
+            <li class="list-inline-item">
+              <a href="{{ network.url }}" class="btn btn-primary rounded-circle d-inline-flex align-items-center justify-content-center shadow-sm transition-social" style="width: 45px; height: 45px;">
+                <i class="fa fa-{{ network.title }} text-white"></i>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <ul class="list-inline mb-0 quicklinks">
+            <li class="list-inline-item small"><a href="#" class="text-muted text-decoration-none border-bottom">Gizlilik Politikası</a></li>
+            <li class="list-inline-item small ms-3"><a href="#" class="text-muted text-decoration-none border-bottom">Kullanım Şartları</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+  .transition-social {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .transition-social:hover {
+    transform: scale(1.15);
+    background-color: #{{ site.data.template.color.accent }} !important;
+  }
+  </style>
+

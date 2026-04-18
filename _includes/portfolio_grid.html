@@ -1,29 +1,43 @@
 <!-- Portfolio Grid Section -->
-<section id="portfolio" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
+<section id="portfolio" class="py-5 bg-white">
+  <div class="container py-5">
+    <div class="row mb-5">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Ürünlerimiz</h2>
-        <h3 class="section-subheading text-muted">Geniş ürün yelpazemizle 1986'dan beri hizmetinizdeyiz</h3>
+        <h2 class="section-heading display-4 fw-bold mb-3" style="color: #{{ site.data.template.color.primary }};">Ürünlerimiz</h2>
+        <h3 class="section-subheading text-muted lead">Geniş ürün yelpazemizle 1986'dan beri hizmetinizdeyiz</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row g-4">
     {% for item in site.data.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#portfolioModal{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden portfolio-card">
+          <a href="#portfolioModal{{ item.modal-id }}" data-bs-toggle="modal" class="text-decoration-none">
+            <div class="portfolio-img-wrapper position-relative overflow-hidden">
+              <img src="{{ item.thumbnail }}" class="card-img-top" alt="{{ item.alt }}" style="height: 250px; object-fit: cover; transition: transform 0.5s ease;">
+              <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-primary bg-opacity-75 opacity-0 transition-overlay">
+                <i class="fa fa-plus fa-3x text-white"></i>
+              </div>
             </div>
-          </div>
-          <img src="{{ item.thumbnail }}" class="img-responsive img-centered" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ item.title }}</h4>
-          <p class="text-muted">{{ item.subtitle }}</p>
+            <div class="card-body p-4 text-center">
+              <h4 class="card-title fw-bold text-dark mb-1">{{ item.title }}</h4>
+              <p class="card-text text-muted fst-italic">{{ item.subtitle }}</p>
+            </div>
+          </a>
         </div>
       </div>
     {% endfor %}
     </div>
   </div>
 </section>
+
+<style>
+.portfolio-card:hover .card-img-top {
+  transform: scale(1.1);
+}
+.portfolio-card:hover .transition-overlay {
+  opacity: 1 !important;
+}
+.transition-overlay {
+  transition: opacity 0.3s ease;
+}
+</style>

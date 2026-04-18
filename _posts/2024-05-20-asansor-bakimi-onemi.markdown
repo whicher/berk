@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Asansör Bakımı Neden Önemlidir?
 date: 2024-05-20
 category: blog

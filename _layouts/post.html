@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<section class="py-5 mt-5">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="card border-0 shadow-sm rounded-4 p-4 p-md-5">
+          <header class="mb-4">
+            <h1 class="fw-bold mb-2">{{ page.title }}</h1>
+            <div class="text-muted fst-italic mb-2">Yayınlanma: {{ page.date | date: "%d.%m.%Y" }}</div>
+            <hr class="my-4">
+          </header>
+          <div class="post-content">
+            {{ content }}
+          </div>
+          <footer class="mt-5">
+            <a href="{{ "/" | prepend: site.baseurl }}" class="btn btn-outline-primary rounded-pill px-4">← Ana Sayfaya Dön</a>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.post-content h1, .post-content h2, .post-content h3 { color: #{{ site.data.template.color.primary }}; margin-top: 2rem; margin-bottom: 1rem; }
+.post-content p { line-height: 1.8; margin-bottom: 1.5rem; color: #444; }
+.post-content ul { margin-bottom: 1.5rem; }
+.post-content li { margin-bottom: 0.5rem; }
+</style>
