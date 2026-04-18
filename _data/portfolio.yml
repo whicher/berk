@@ -1,0 +1,71 @@
+- modal-id: 1
+  title: Asansör Butonları
+  subtitle: Şık ve Dayanıklı Buton Seçenekleri
+  img: buton.jpg
+  thumbnail: img/portfolio/buton.jpg
+  alt: Asansör Butonları
+  description: Paslanmaz çelikten üretilmiş, uzun ömürlü ve modern tasarımlı asansör içi ve kat butonları.
+  category: Aksesuar
+
+- modal-id: 2
+  title: Hidrolik Sistemler
+  subtitle: Güçlü ve Sessiz
+  img: hidrolik_sistemler.jpg
+  thumbnail: img/portfolio/hidrolik_sistemler.jpg
+  alt: Hidrolik Sistemler
+  description: Düşük katlı binalar için ideal, sessiz çalışan ve yüksek taşıma kapasitesine sahip hidrolik asansör sistemleri.
+  category: Sistem
+
+- modal-id: 3
+  title: Asansör Kabinleri
+  subtitle: Estetik ve Konforlu
+  img: kabin.jpg
+  thumbnail: img/portfolio/kabin.jpg
+  alt: Asansör Kabini
+  description: İhtiyacınıza uygun, cam, paslanmaz veya laminat kaplamalı lüks asansör kabinleri.
+  category: Kabin
+
+- modal-id: 4
+  title: Otomatik Kapılar
+  subtitle: Güvenli ve Hızlı
+  img: kapi.jpg
+  thumbnail: img/portfolio/kapi.jpg
+  alt: Otomatik Kapı
+  description: Tam otomatik, sensörlü ve yüksek güvenlik standartlarına sahip asansör kapıları.
+  category: Kapı
+
+- modal-id: 5
+  title: Kumanda Panoları
+  subtitle: Akıllı Kontrol
+  img: kumanda_panolari.jpg
+  thumbnail: img/portfolio/kumanda_panolari.jpg
+  alt: Kumanda Panoları
+  description: Asansörün beyni olan mikroişlemcili, enerji tasarruflu ve hata teşhis özellikli kumanda panoları.
+  category: Elektronik
+
+- modal-id: 6
+  title: Asansör Makinaları
+  subtitle: Yüksek Performans
+  img: makina.jpg
+  thumbnail: img/portfolio/makina.jpg
+  alt: Asansör Makinası
+  description: Dişlili veya dişlisiz (gearless), yüksek enerji verimliliği sağlayan uzun ömürlü asansör motorları.
+  category: Motor
+
+- modal-id: 7
+  title: Taban Döşemeleri
+  subtitle: Dayanıklı Zeminler
+  img: taban_dosemeleri.jpg
+  thumbnail: img/portfolio/taban_dosemeleri.jpg
+  alt: Taban Döşemeleri
+  description: Granit, PVC veya özel taş kaplamalı, kaymaz ve kolay temizlenebilir asansör taban döşemeleri.
+  category: Dekorasyon
+
+- modal-id: 8
+  title: Kabin Tavanları
+  subtitle: Aydınlık ve Ferah
+  img: tavan.jpg
+  thumbnail: img/portfolio/tavan.jpg
+  alt: Kabin Tavanı
+  description: Lazer kesim, LED aydınlatmalı ve şık tasarımlı asansör tavan modelleri.
+  category: Dekorasyon

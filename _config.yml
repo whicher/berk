@@ -1,60 +1,40 @@
 url: http://berkasansor.com/
-baseurl: 
+baseurl: ""
 
 # Site settings
-title: Berk Asansör
+title: Berk Asansör | İstanbul Modern Asansör Çözümleri
 email: berkasansor@hotmail.com
-description: "Bakım, arıza, modernizasyon, projelendirme, mühendislik"
+description: "Berk Asansör, İstanbul'da asansör bakım, arıza, modernizasyon ve montaj hizmetleri sunmaktadır. 30 yıllık tecrübemizle kaliteli ve güvenli asansör çözümleri."
+keywords: "asansör bakım, asansör arıza, asansör modernizasyon, istanbul asansör firması, berk asansör, asansör montaj"
+author: "Berk Asansör"
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Berk Asansör Ekibi
   pic: 1
-  position: Lead Designer
+  position: Teknik Uzman
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/Berk-Asans%C3%B6r-185447965283429/
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: twitter
     url: http://twitter.com/berkasansor
   - title: facebook
     url: https://www.facebook.com/Berk-Asans%C3%B6r-185447965283429/
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address: Namık Kemal Mah. Yunus Emre Cadddesi Bayrak Sokak Mevlana Apartmanı 3 / Dükkan 2 Ümraniye İstanbul
-phone: (216) 328 80 26 - (216) 328 65 38
+phone: (216) 328 80 26
 gsm: (0532) 332 04 26
 fax: (216) 328 92 96
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title/
